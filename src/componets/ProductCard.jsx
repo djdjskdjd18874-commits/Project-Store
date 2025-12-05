@@ -11,7 +11,10 @@ export default class ProductCard extends Component {
         {images?.length > 0 &&
           images.slice(0, 3).map((img, index) => (
             <div className="col-12 col-md-4 product-card" key={index}>
-              <img src={img} alt={title} className="w-75 product-img" />
+              <img src={img} alt={title} className="w-75 product-img"
+
+              style={{maxHeight: "200px" , maxWidth: "400px" }}
+              />
               <div className="product-info  ">
                 <h6 className='title'>{title}</h6>
                 <h5>{category?.name}</h5>

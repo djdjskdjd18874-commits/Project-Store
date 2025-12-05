@@ -22,7 +22,7 @@ export default class StoreCategory extends Component {
 
   render() {
     return <>
-      <section className='container-fluid p-5    '>
+      <section className='container-fluid     '>
         {this.state.productApiData &&
           this.state.productApiData.map((productItem) => (
               

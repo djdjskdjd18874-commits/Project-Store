@@ -1,1 +1,25 @@
- 
+ /* الوضع النهاري */
+.light-mode {
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* الوضع الليلي */
+.dark-mode {
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
